@@ -13,9 +13,8 @@
 
 - (id)initWithRouterParams:(NSDictionary *)params {
     if ((self = [self initWithNibName:nil bundle:nil])) {
-        
+        //  initWithRouterParams ，通过 params 将 url的参数解析出来
         self.title = params[@"title"];
-//        self.title = @"Modal";
     }
     return self;
 }
